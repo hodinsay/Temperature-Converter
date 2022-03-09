@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap');
+
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+     font-family: "Smooch Sans", sans-serif;
+     font-size: 50px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     margin: 0;
+     background-color:#861657;
+     background-image:linear-gradient(326deg, #861657 0%, #ffa69e 74%);
+}
+
+input {
+     padding: 0 0 0 1rem;
+     font-family: inherit;
+     font-size: inherit;
+}
+
+button {
+     padding: 1rem 2rem 0 2rem;
+     font-family: inherit;
+     font-size: inherit;
+     margin-top: 2rem;
+     background-color: #95a5a6;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
